@@ -1,5 +1,7 @@
 body {
+    color: #2CCCC3;
     font-size: 16pt;
+    font-family: 'Tinos';
 }
 
 header, main, footer {
@@ -8,8 +10,10 @@ header, main, footer {
 }
 
 header {
-    background-color: pink;
+    font-family: 'ArchivoBlack-Regular';
+    background-color:#E60576;
     padding: 1.5em;
+    text-align: center;
 }
 
 header img {
@@ -17,7 +21,7 @@ header img {
 }
 
 header img {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 
@@ -28,7 +32,9 @@ h1 {
 }
 
 footer {
-    background-color: pink;
+    color: white;
+    font-size: 12px;
+    background-color: #e60576;
     padding: 1.5em;
     text-align: center;
 }
