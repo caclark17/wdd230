@@ -3,14 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1>Design Principles</h1>
+        <h2>Cynthia Clark</h2>
+    </header>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section>
+            <h2>CONTRAST</h2>
+            <h3>Zao Asian Cafe</h3>
+            <p> 
+                <a href="https://www.zaoasiancafe.com/">www.zaoasiancafe.com</a>
+                
+            </p>
+            <img src="images/zaoApp.png" style="width: 300px; height: auto;">
+            <p>The Zao app really makes their food pop by creating a black background and then 
+                using a white bowl for their food and white containers for their sauces. Their bright green buttons
+                and green type also add great contrast against the black so that they are very visible.
+            </p>
+        </section>
+        <section>
+            <h2>WHITE SPACE/CLEAN DESIGN</h2>
+            <h3>Uber App</h3>
+            <p>
+                <a href="https://www.uber.com/">www.uber.com</a>
+            </p>
+            <img src="images/uberApp.png" style="width: 300px; height: auto;">
+            <p>The home screen is very nicely laid out so that all of the information has plenty of room in between
+                allowing for white space for the eyes to rest and so that it doesn't make the screen over crowded. 
+                It is also very simple and easy to navigate and limited to only a few colors, making it look nice and clean. 
+            </p>
+        </section>
+        <section>
+            <h2>ALIGNMENT</h2>
+            <h3>Target App</h3>
+            <p>
+                <a href="https://www.target.com/">www.target.com</a>
+            </p>
+            <img src="images/targetApp.png" style="width: 300px; height: auto;">
+            <p>If you look at the left-hand side of the page, all of the text and text boxes follow the same line all 
+                the way down. Even the icons at the bottom are aligned with everything above it and have equal spacing
+                between each one. 
+            </p>
+        </section>
     </main>
+    <footer>&copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
+        <p>Last Modified: </p><span id="dateMod"></span></footer>
     
 </body>
+<script>
+    document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
+</script>
 </html>

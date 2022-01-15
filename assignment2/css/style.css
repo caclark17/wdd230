@@ -1,19 +1,33 @@
 body {
-
+    font-size: 24px;
+    font-family: "Avenir", sans-serif;
 }
+
 /* phone or baseline views*/
 
 main {
+    max-width: 760px;
     display: grid;
+    margin: 0 auto;
     grid-template-columns: 1fr;
-    font-size: 16px;
+    font-size: 0.8rem;
+}
+
+header h1, h2 {
+    text-align: center;
+    color:#7569f5;
+}
+
+main section h2 {
+    color: #7569f5;
+    text-align: center;
 }
 
 main section {
     margin: 0.5rem;
     border: 1 px solid #bbb;
     padding: 0 1rem;
-    background-color: #eee;
+    background-color: #d1ccd0;
 }
 
 /* Tablet Views */
@@ -23,7 +37,34 @@ main section {
         grid-template-columns: 1fr 1fr;
     }
 
-    section:nth-child(3) {
-        grid-column: span 2;
+    main section:nth-child(2) {
+        display:block;
     }
+
+    section:nth-child(3) {
+        display: block;
+    }
+
+    main section picture img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
+    }
+
+ /* Desktop Views */
+ @media only screen and (min-width: 760px) {
+     main {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+
+     footer {
+        color: white;
+        font-size: 12px;
+        background-color:#d1ccd0;
+        padding: 1.5em;
+        text-align: center;
+    }
+
+ }   
 }
