@@ -1,6 +1,6 @@
 body {
-    color: #2CCCC3;
-    font-size: 16pt;
+    color: #1d746a;
+    font-size: 14pt;
     font-family: 'Tinos';
 }
 
@@ -11,13 +11,9 @@ header, main, footer {
 
 header {
     font-family: 'ArchivoBlack-Regular';
-    background-color:#E60576;
+    background-color:#a33b47;
+    display: flex;
     padding: 1.5em;
-    text-align: center;
-}
-
-header img {
-    float: right;
 }
 
 header img {
@@ -34,7 +30,7 @@ h1 {
 footer {
     color: white;
     font-size: 12px;
-    background-color: #e60576;
+    background-color:#a33b47;
     padding: 1.5em;
     text-align: center;
 }
