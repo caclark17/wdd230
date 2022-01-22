@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/medium.css"/>
     <script defer src="js/dates.js"></script>
-    <script>
-        document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
-    </script>
+
 </head>
 <body>
     <header>
@@ -46,5 +44,8 @@
     <p>Last Modified: </p><span id="dateMod"></span></footer>
     
 </body>
+<script>
+    document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
+</script>
 
 </html>

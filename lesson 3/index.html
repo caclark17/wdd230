@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Plan: Utah County Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/date.js"></script>
+    <title>Site Plan</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <h4>The Nav</h4>
-        </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Target Audience</a></li>
-            <li><a href="#">Color Scheme</a></li>
-            <li><a href="#">Typography</a></li>
-        </ul>
-    </nav>
     <header>
-        <h1>Site Plan</h1>
+        <img class="logo" src="images/utahValley.png" width="200px" height="auto" alt="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="color-scheme.html">Color Scheme</a></li>
+                <li><a href="typography.html">Typography</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
     </header>
     <main>
         <h2>
@@ -32,5 +35,12 @@
         </h2>
         <img src="images/utahValley.png" alt="Chamber Logo" />
     </main>
+    <footer>&copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
+        <p>Last Modified: </p><span id="dateMod"></span>
+    </footer>
+    
 </body>
+<script>
+    document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
+</script>
 </html>
