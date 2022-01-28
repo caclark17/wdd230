@@ -64,6 +64,13 @@ button:hover {
     background-color: #d6a184;
 }
 
+main {
+    max-width: 760px;
+    margin 0 auto;
+    display: block;
+    text-align: justify;
+}
+
 footer {
     background-color: #ffffff;
     padding: 1.5em;

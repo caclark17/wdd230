@@ -3,14 +3,25 @@ body {
     font-family: "Avenir", sans-serif;
 }
 
-/* phone or baseline views*/
-
 main {
     max-width: 760px;
     display: grid;
-    margin: 0 auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
     font-size: 0.8rem;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.contrast, .whiteSpace, .alignment {
+    border: 1px solid; color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
 }
 
 header h1, h2 {
@@ -25,7 +36,7 @@ main section h2 {
 
 main section {
     margin: 0.5rem;
-    border: 1 px solid #bbb;
+    border: 1px solid #bbb;
     padding: 0 1rem;
     background-color: #d1ccd0;
 }
@@ -34,7 +45,7 @@ main section {
 @media only screen and (min-width: 37.5em) {
 
     main {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     main section:nth-child(2) {
