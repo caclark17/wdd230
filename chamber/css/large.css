@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+    .nav-links {
+        display: flex;
+    }
+    .nav-links li:first-child {
+        display: none;
+    }
+    navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        color: yellow;
+    }
+}
