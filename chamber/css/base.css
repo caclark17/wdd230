@@ -10,6 +10,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 h1, p {margin: 0 2vw;}
 
+h1 {
+    display:flex;
+    justify-content: center;
+}
+
+.chamberName {
+    justify-content: center;
+}
+
 nav button {
     margin: .2rem 2vw;
     background: transparent;
@@ -42,6 +51,15 @@ nav ul li.products a {
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    background-color: #00a2b6;
+    font-size: 12px;
+    color: white;
+    padding: 1.5em;
 }
 
 nav ul {display: none;}

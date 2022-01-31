@@ -1,8 +1,13 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
+    .chamberName {
+        justify-content: center;
+    }
+
     nav ul {
         display: flex;
+        justify-content: center;
     }
 
     nav ul li a {
