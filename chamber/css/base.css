@@ -13,10 +13,12 @@ h1, p {margin: 0 2vw;}
 h1 {
     display:flex;
     justify-content: center;
+    color: #00a2b6;
 }
 
-.chamberName {
+#chamberName {
     justify-content: center;
+    color: #00a2b6;
 }
 
 nav button {
