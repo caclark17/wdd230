@@ -16,12 +16,13 @@
 
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
     
     #callToAction {
-        grid-area: 1 / 2 / 3 / 3;
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 1;
         background-color: #eee;
         border: 1px solid #000;
         text-align:center;
@@ -40,6 +41,37 @@
     #events {
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
+        background-color: #eee;
+        border: 1px solid #000;
+        text-align:center;
+        border-radius: 5px; 
+    }
+
+    #news {
+        grid-column: 2 / span 2;
+        grid-row: 3 / span 1;
+        background-color: #eee;
+        border: 1px solid #000;
+        text-align:center;
+        border-radius: 5px; 
+    }
+
+    #spotlights {
+        grid-column: 4 / span 1;
+        grid-row: 1 / span 3;
+        background-color: #eee;
+        border: 1px solid #000;
+        text-align:center;
+        border-radius: 5px; 
+    }
+
+    #join {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        background-color: #eee;
+        border: 1px solid #000;
+        text-align:center;
+        border-radius: 5px; 
     }
     
     }/* end large */
