@@ -23,14 +23,16 @@
         <h2>
             WDD 230: Assignment Portal
             </h2>
-            <h3>
+                <div class="lessonList">
             <ul>
                 <li>Lesson 2: 
                     <a href="lesson2/design-principles.html">Design Principles Assignment</a>
                 </li>
                 <li>Lesson 3:
-                    <a href="lesson3/index.html">Site Plan</a> </li>
-                <li>Lesson 4: <a href="chamber/index.html">Chamber Home Page Build</li>
+                    <a href="lesson3/index.html">Site Plan</a> 
+                </li>
+                <li>Lesson 4: <a href="chamber/index.html">Chamber Home Page Build</a>
+                </li>
                 <li>Lesson 5: </li>
                 <li>Lesson 6: </li>
                 <li>Lesson 7: </li>
@@ -38,15 +40,16 @@
                 <li>Lesson 9: </li>
                 <li>Lesson 10: </li>
             </ul>
-            </h3>
+            </div>
         
     </main>
     <footer>&copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
     <p>Last Modified: </p><span id="dateMod"></span></footer>
     
+    <script>
+        document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
+    </script>
 </body>
-<script>
-    document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
-</script>
+
 
 </html>
