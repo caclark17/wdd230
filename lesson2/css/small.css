@@ -1,17 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 /* phone or baseline views*/
-@media only screen 
+
+header {
+    background-color: #eee;
+}
+header h1, h2 {
+    text-align: center;
+    color:#7569f5;
+}
 
 main {
-    max-width: 760px;
     display: grid;
     margin: 0 auto;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
-}
-
-header h1, h2 {
-    text-align: center;
-    color:#7569f5;
 }
 
 main section h2 {
@@ -21,7 +23,7 @@ main section h2 {
 
 main section {
     margin: 0.5rem;
-    border: 1 px solid #bbb;
+    border: 1px solid #bbb;
     padding: 0 1rem;
     background-color: #d1ccd0;
 }
