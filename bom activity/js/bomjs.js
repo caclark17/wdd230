@@ -3,7 +3,7 @@ const input = document.querySelector('input');
 const button = document.querySelector('button');
 
 button.addEventListener("click"), function () {
-        let myItem = input.value;
+        let favScrip = input.value;
         input.value = '';
 
         const listItem = document.createElement('li');
@@ -11,7 +11,7 @@ button.addEventListener("click"), function () {
         const listBtn = document.createElement('button');
 
         listItem.appendChild(listText);
-        listText.textContent = myItem;
+        listText.textContent = favScrip;
         listItem.appendChild(listBtn);
         listBtn.textContent = '❌';
         list.appendChild(listItem);
