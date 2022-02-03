@@ -2,7 +2,7 @@ const list = document.querySelector('ul');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
 
-button.addEventListener("click"), function () {
+button.addEventListener("click", function () {
         let favScrip = input.value;
         input.value = '';
 
@@ -16,9 +16,10 @@ button.addEventListener("click"), function () {
         listBtn.textContent = '❌';
         list.appendChild(listItem);
 
-        newButton.addEventListener("click"), function () {
+        newButton.addEventListener("click", function () {
           list.removeChild(listItem);
-        }
+        });
+      });
 
         input.focus();
       }
