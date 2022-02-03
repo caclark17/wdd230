@@ -39,7 +39,7 @@ body {
         background-color: #bed;
         display: grid;
         grid-template-columns: 1fr;
-        width: 95%;
+        width: 480px;
        }
 
        input, button {
@@ -69,4 +69,14 @@ body {
        ul {
            margin: 1rem;
            list-style: none;
+       }
+    
+       @media only screen and (min-width: 32.5em) {
+           h1 {
+               font-size: 2rem;
+           }
+
+           main {
+               width: 480px;
+           }
        }
