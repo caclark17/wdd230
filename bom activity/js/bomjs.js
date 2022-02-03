@@ -1,8 +1,8 @@
 const list = document.querySelector('ul');
-      const input = document.querySelector('input');
-      const button = document.querySelector('button');
+const input = document.querySelector('input');
+const button = document.querySelector('button');
 
-      button.onclick = function() {
+button.addEventListener("click"), function () {
         let myItem = input.value;
         input.value = '';
 
@@ -16,7 +16,7 @@ const list = document.querySelector('ul');
         listBtn.textContent = '❌';
         list.appendChild(listItem);
 
-        listBtn.onclick = function(e) {
+        newButton.addEventListener("click"), function () {
           list.removeChild(listItem);
         }
 
