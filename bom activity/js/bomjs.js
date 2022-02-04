@@ -17,7 +17,7 @@ button.addEventListener("click", function () {
         list.appendChild(listItem);
 
         listBtn.addEventListener("click", function () {
-          listItem.removeChild(listItem);
+          listItem.remove();
         });
       });
 
