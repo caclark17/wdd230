@@ -14,6 +14,7 @@
         padding: .5rem 1rem;
     }
 
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -23,8 +24,9 @@
     #callToAction {
         grid-column: 2 / span 2;
         grid-row: 1 / span 2;
-        background-color: #eee;
-        border: 1px solid #000;
+        background-color: #8B728E;
+        border: 1px solid #D6A184;
+        color: white;
         text-align:center;
         border-radius: 5px;
     }
@@ -32,8 +34,9 @@
     #weather {
         grid-column: 1 / span 1;
         grid-row: 2/ span 1;
-        background-color: #eee;
-        border: 1px solid #000;
+        background-color: #8B728E;
+        border: 1px solid #D6A184;
+        color: white;
         text-align:center;
         border-radius: 5px; 
     }
@@ -41,8 +44,9 @@
     #events {
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
-        background-color: #eee;
-        border: 1px solid #000;
+        background-color: #8B728E;
+        border: 1px solid #D6A184;
+        color: white;
         text-align:center;
         border-radius: 5px; 
     }
@@ -50,8 +54,9 @@
     #news {
         grid-column: 2 / span 2;
         grid-row: 3 / span 1;
-        background-color: #eee;
-        border: 1px solid #000;
+        background-color: #8B728E;
+        border: 1px solid #D6A184;
+        color: white;
         text-align:center;
         border-radius: 5px; 
     }
@@ -59,8 +64,9 @@
     #spotlights {
         grid-column: 4 / span 1;
         grid-row: 1 / span 3;
-        background-color: #eee;
-        border: 1px solid #000;
+        background-color: #8B728E;
+        border: 1px solid #D6A184;
+        color: white;
         text-align:center;
         border-radius: 5px; 
     }
@@ -68,8 +74,9 @@
     #join {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
-        background-color: #eee;
-        border: 1px solid #000;
+        background-color: #8B728E;
+        border: 1px solid #D6A184;
+        color: white;
         text-align:center;
         border-radius: 5px; 
     }
