@@ -21,10 +21,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     padding: 10px;
 }
 
-.topOfPage {
-    display: grid;
-    grid-template-columns: 25% 25% 5% 5%;                                    
-}
 
 .utahMountains {
     height: 400px;
@@ -112,6 +108,15 @@ main {
     row-gap: 0.3rem;
     column-gap: 0.3rem;
     margin: 2px;
+}
+
+.spotlights {
+    display: grid;
+}
+
+.spotlights div {
+    padding: .5rem;
+    border: 1px solid #000;
 }
 
 footer {

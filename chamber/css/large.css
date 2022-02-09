@@ -28,6 +28,7 @@
     }
     
     #callToAction {
+        position: relative;
         grid-column: 2 / span 2;
         grid-row: 1 / span 2;
         background-color: #8B728E;
@@ -35,6 +36,17 @@
         color: white;
         text-align:center;
         border-radius: 5px;
+    }
+
+    .overlayButton {
+        position: absolute;
+        border: none;
+        bottom: 30px;
+        left: 70px;
+        padding: 10px;
+        background-color: #00a2b6;
+        border-radius: 15px;
+        box-shadow: 3 3 20px #333;
     }
 
     #weather {
@@ -46,6 +58,7 @@
         text-align:center;
         border-radius: 5px; 
     }
+
 
     #events {
         grid-column: 1 / span 1;
