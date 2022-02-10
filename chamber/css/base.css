@@ -21,6 +21,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     padding: 10px;
 }
 
+header .topOfPage {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .utahMountains {
     height: 400px;
@@ -42,7 +47,7 @@ h1 {
 }
 
 .logo {
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
@@ -54,7 +59,6 @@ h1 {
 .socialMedia2 {
     width: 45px;
     height: auto;
-    padding-bottom: 15px;
 }
 
 nav button {
@@ -130,6 +134,13 @@ footer {
     font-size: 12px;
     color: white;
     padding: 2em;
+}
+
+footer .footerLayout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2em;
 }
 
 footer figure.map {
