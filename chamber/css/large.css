@@ -52,52 +52,77 @@
     #weather {
         grid-column: 1 / span 1;
         grid-row: 2/ span 1;
-        background-color: #8B728E;
+        background-color: white;
         border: 1px solid #D6A184;
-        color: white;
+        color: black;
         text-align:center;
         border-radius: 5px; 
+    }
+
+    main #weather h2 {
+        color: #00a2b6;
     }
 
 
     #events {
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
-        background-color: #8B728E;
+        background-color: white;
         border: 1px solid #D6A184;
-        color: white;
+        color: black;
         text-align:center;
         border-radius: 5px; 
+    }
+
+    main #events h2 {
+        color: #00a2b6;
     }
 
     #news {
         grid-column: 2 / span 2;
         grid-row: 3 / span 1;
-        background-color: #8B728E;
+        background-color: white;
         border: 1px solid #D6A184;
-        color: white;
+        color: black;
         text-align:center;
         border-radius: 5px; 
+    }
+
+    main #news h2 {
+        color:#00a2b6;
     }
 
     #spotlights {
         grid-column: 4 / span 1;
         grid-row: 1 / span 3;
-        background-color: #8B728E;
+        background-color: white;
         border: 1px solid #D6A184;
-        color: white;
+        color: black;
         text-align:center;
         border-radius: 5px; 
+    }
+
+    main #spotlights h2 {
+        color: #00a2b6;
+    }
+
+    #spotlights div {
+        border: 1px solid #D6A184;
+        padding-bottom: .5em;
     }
 
     #join {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
-        background-color: #8B728E;
+        background-color: white;
         border: 1px solid #D6A184;
-        color: white;
+        color: black;
         text-align:center;
         border-radius: 5px; 
+    }
+
+    main #join h2 {
+        color: #00a2b6;
     }
     
     }/* end large */

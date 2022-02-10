@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css"/>
     <link rel="shortcut icon" href="favicon.ico">
-    <script defer src="js/dates.js"></script>
+    <script defer src="js/chamber.js"></script>
 
 </head>
 <body>
@@ -58,7 +58,7 @@
         </section>
         <section id="weather">
             <h2>Weather</h2>
-            <p class="snowflake">❄️</p>
+            <img class="snowflake" src="images/snowflakeIcon.png" alt="Snowflake Icon">
             
         </section>
         <section id="news">
@@ -69,14 +69,27 @@
             <div>
             <h2>Spotlight 1</h2>
             <p>Thankful Transport</p>
+            <img src="images/truckIcon.png" alt="Truck Icon">
+            <p><em>"We get it there for you!"</em></p>
+            <p class="line">hello@thankfultransport.com<br>
+            +999-999-9999 | Website</p>
             </div>
             <div>
                 <h2>Spotlight 2</h2>
                 <p>Code Primera</p>
+                <img src="images/codeIcon.png" alt="Coding Icon">
+                <p><em>An after school coding instructional program</em></p>
+                <p class="line">contact@codeprimera.com<br>
+                +999-999-9999 | Website</p>
+                
             </div>
             <div>
                 <h2>Spotlight 3</h2>
                 <p>Build a Treefort</p>
+                <img src="images/treehouseIcon.png" alt="Tree House">
+                <p><em>Over 1000 plans!</em></p>
+                <p class="line">builda@treefort.com<br>
+                +888-888-8888 | Website</p>
             </div>
         </section>
         <section id="join">
@@ -84,8 +97,20 @@
         </section>
 
     </main>
-    <footer>&copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
-        <p>Last Modified: </p><span id="dateMod"></span></footer>
+    <footer>
+        <div class="footerLayout">
+        <img src="images/utahValley.png" alt="Chamber Logo">
+        <p>1234 Lehi Lane<br>
+        Lehi, Utah 84043</p>
+        <p>(801)456-7899<br>
+        uvchamber@info.com</p>
+        <figure class="map">
+        <img src="images/chamberMap250.jpeg" alt="Chamber Location">
+        </figure>
+        &copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
+        <p>Last Modified: </p><span id="dateMod"></span>
+    </div>
+    </footer>
 
         <script>
             document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
