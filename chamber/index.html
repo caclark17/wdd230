@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/medium.css"/>
     <link rel="shortcut icon" href="favicon.ico">
     <script defer src="js/chamber.js"></script>
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/windChill.js"></script>
 
 </head>
 <body>
@@ -46,28 +48,32 @@
 
     <main>
         <section id="hero">
-        <h2>Discover Utah Valley</h2>
-        <picture class="tempHero">
+        <picture>
             <source media="(max-width: 400px)" srcset="images/small.png">
                 <source media="(max-width: 800px)" srcset="images/medium.png">
                     <source media="(max-width: 1200px)" srcset="images/large.png">
-        </picture>
-        <section class="overlayButton">
+                        <img class="tempHero" src="images/large.png" alt="Temporary Picture">
+                    </picture>
+        </section>
+        <section class="overlayButton"></h2>
+        </section>
         <button>Join the Chamber</button>
-        </section>
-        </section>
+    
         <section id="events">
             <h2>Ribbon Cutting</h2>
             <p>💎 The Diamond Shack</p><br>
             <p>Join us for the grand opening of the Diamond Shack, Thursday at 1:00pm.</p>
         </section>
         <section id="weather">
+            <section>
             <h2>Weather</h2>
-            <p><img class="snowflake" src="images/snowflakeIcon.png" alt="Snowflake Icon" ><span id="temp">28</span>&deg;F</p> 
+            <p><img class="snowflake" src="images/snowflakeIcon.png" alt="Snowflake Icon" ></p> 
             <p>Snow</p>
-            <p class="line">Wind Chill: </p><br>
-            <span>Wind Speed: </span>
-            
+            <p class="line"></p>
+            <p> Currently: <span id="temp">28</span>&deg;F</p>
+            <span>Wind Speed: <span id="speed">17</span></span>
+            <p>Wind Chill: <span id="wind"></span></p>
+        </section>
         </section>
         <section id="news">
             <h2>News</h2>
