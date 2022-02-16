@@ -1,0 +1,139 @@
+main #rcorners1 {
+    border-radius: 15px;
+    background: cornflowerblue;
+    padding: 30px;
+    width: 300px;
+    height: 100px;
+}
+
+main #rcorners2 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 50px;
+    border: 3px solid red;
+    padding: 20px;
+    width: 250px;
+    height: 50px;
+}
+
+main img#rcorners3 {
+    border-radius: 30px;
+}
+
+main #dotted {
+    border: 2px black;
+    border-style: dotted;
+    padding: 15px;
+    width: 50px;
+    height: 30px;
+}
+
+main #dashed {
+    border: 2px black;
+    border-style: dashed;
+    padding: 15px;
+    width: 50px;
+    height: 30px;
+}
+
+main #solid {
+    border-bottom: 2px solid black;
+    padding: 15px;
+    width: 50px;
+    height: 30px;
+}
+
+main #double {
+    border: 2px double black;
+    padding: 15px;
+    width: 50px;
+    height: 30px;
+}
+
+main #groove {
+    border: 4px green;
+    border-style: groove;
+    padding: 15px;
+    width: 75px;
+    height: 50px;
+}
+
+main #ridge {
+    border: 4px green;
+    border-style: ridge;
+    padding: 15px;
+    width: 75px;
+    height: 50px;
+}
+
+main #inset {
+    border: 3px inset red;
+    padding: 15px;
+    width: 75px;
+    height: 50px;
+}
+
+main #outset {
+    border: 3px outset red;
+    padding: 15px;
+    width: 75px;
+    height: 50px;
+}
+
+main #none {
+    padding: 15px;
+    width: 50px;
+    height: 30px;
+    border-style: none;
+}
+
+main #hidden {
+    padding: 15px;
+    width: 50px;
+    height: 30px;
+    border-style: hidden;
+}
+
+main #mix {
+    border: 2px black;
+    border-style: dotted dashed double solid;
+    padding: 15px;
+    width: 50px;
+    height: 30px;
+}
+
+main #boxShadow {
+    background:indigo;
+    color: white;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 10px 10px 5px 11px lightcoral;
+}
+
+main #boxShadow2 {
+    margin-top: 50px;
+    background:indigo;
+    color: white;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 10px 10px gray;
+}
+
+main #boxShadow3 {
+    margin-top: 50px;
+    background:indigo;
+    color: white;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 10px 10px inset lightcoral;
+}
+
+main h1#textShadow {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px red, 1px 0 black, 0 -1px black;
+}
+
