@@ -1,6 +1,8 @@
-if (day == 1 || day == 2) {
-    document.getElementsByClassName("banner").classList.add("");
+let day= new Date().getDay();
+console.log(day);
+if (day == 1 || day == 3) {
+    document.querySelector(".banner").classList.remove("hide");
 }
 else {
-    document.getElementsByClassName("banner").classList.remove("");
+    document.querySelector(".banner").classList.add("hide");
 }
