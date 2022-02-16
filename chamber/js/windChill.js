@@ -1,5 +1,5 @@
-let temp = parseFloat(document.querySelector('temp').value);
-let speed = parseFloat(document.querySelector('speed').value);
+let temp = parseFloat(document.querySelector('temp').textContent);
+let speed = parseFloat(document.querySelector('speed').textContent);
 let windchill = '';
 
 if(temp <= 50 && speed > 3) {
