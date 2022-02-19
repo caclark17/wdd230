@@ -32,7 +32,7 @@
         position: relative;
         grid-column: 2 / span 2;
         grid-row: 1 / span 2;
-        background-color: #8B728E;
+        background-color: white;
         border: 1px solid #D6A184;
         color: white;
         text-align:center;

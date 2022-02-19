@@ -45,10 +45,6 @@ h1 {
     color: #00a2b6;
 }
 
-h2 {
-    color:white;
-}
-
 .topOfPage {
     display: flex;
     display: inline;
@@ -121,7 +117,6 @@ main {
     column-gap: 0.3rem;
     margin: 2px;
 }
-
 
 .spotlights {
     display: grid;
