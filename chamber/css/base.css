@@ -168,6 +168,10 @@ main #weather h2 {
     color: #00a2b6;
 }
 
+main h3 {
+    color:#00a2b6;
+}
+
 
 #events {
     grid-column: 1 / span 1;

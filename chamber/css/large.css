@@ -20,7 +20,9 @@
         justify-content: center;
     }
 
-
+    main div.utahFunGrid img:hover {
+        box-shadow: 0 0 20px #D6A184;
+    }
     
     
     }/* end large */
