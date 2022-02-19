@@ -135,6 +135,11 @@ main {
     border-radius: 5px;
 }
 
+.discoverTitle {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 2;
+}
+
 .overlayButton {
     position: absolute;
     border: none;
