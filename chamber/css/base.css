@@ -46,8 +46,7 @@ h1 {
 }
 
 h2 {
-    color:#00a2b6;
-    align-content: center;
+    color:white;
 }
 
 .topOfPage {
@@ -116,16 +115,13 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-main .homePage{
+main {
     display: grid;
     row-gap: 0.3rem;
     column-gap: 0.3rem;
     margin: 2px;
 }
 
-main h2.discoverPage {
-    align-content: center;
-}
 
 .spotlights {
     display: grid;
