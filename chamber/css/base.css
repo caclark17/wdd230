@@ -45,6 +45,10 @@ h1 {
     color: #00a2b6;
 }
 
+h2 {
+    color:#00a2b6;
+}
+
 .topOfPage {
     display: flex;
     display: inline;
@@ -58,11 +62,13 @@ h1 {
 .socialMedia {
     width: 150px;
     height: auto;
+    margin-right: -300px;
 }
 
 .socialMedia2 {
     width: 45px;
     height: auto;
+    margin-right: -100px;
 }
 
 nav button {
@@ -117,12 +123,28 @@ main {
     column-gap: 0.3rem;
     margin: 2px;
 }
-main {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+.discover-grid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
+main h2.discoverTitle {
+    align-content: center;
+}
+
+main img {
+    grid-column: 1 / span 1;
+}
+
+main p {
+    grid-column: 2 / span 1;
+}
 
 #hero {
     position: relative;
@@ -135,11 +157,6 @@ main {
     border-radius: 5px;
 }
 
-.discoverTitle {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 2;
-    color:#00a2b6;
-}
 
 .overlayButton {
     position: absolute;
