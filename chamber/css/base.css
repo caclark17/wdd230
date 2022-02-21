@@ -130,8 +130,8 @@ main {
 }
 .utahFunGrid {
     display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 main h2.discoverTitle {
