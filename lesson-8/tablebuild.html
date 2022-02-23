@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,17 +14,47 @@
         <caption>
             ACME Wildwest
         </caption>
-        <tr>
-            <thead>
-                Period
-            </thead>
-            <thead>
-                Sales
-            </thead>
-            <thead>
-                Sales Goal
-            </thead>
-        </tr>
+        <thead>
+            <tr>
+                <th>Period</th>
+                <th>Sales</th>
+                <th>Sales Goal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">August</th>
+                <td>$3,590</td>
+                <td>$4,000</td>
+            </tr>
+            <tr>
+                <th scope="row">September</th>
+                <td>$4,420</td>
+                <td>$5,000</td>
+            </tr>
+            <tr>
+                <th scope="row">October</th>
+                <td>$4,870</td>
+                <td>$5,000</td>
+            </tr>
+            <tr>
+                <th scope="row">November</th>
+                <td>$8,610</td>
+                <td id="standout">$7,500</td>
+            </tr>
+            <tr>
+                <td><em>Black Friday</em></td>
+                <td colspan="2">$3,200</td>
+            </tr>
+            <tr>
+                <th scope="row">December</th>
+                <td>$6,820</td>
+                <td>$7,200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" colspan="3">Compiled 2.23.22 by Cynthia Clark</th>
+        </tfoot>
     </table>
 </body>
 </html>
