@@ -285,6 +285,10 @@ footer figure.map {
     width: 20%;
 }
 
+#lastvisit {
+    background-color: #694873;
+}
+
 nav ul {
     display: none;
 }
