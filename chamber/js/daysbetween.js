@@ -10,5 +10,5 @@ console.log(numberOfDays);
 
 localStorage.setItem('#lastvisit', Date.now());
 
-document.getElementById('#lastvisit').innerHTML = numberOfDays.toFixed(2);
+document.getElementById('#lastvisit').innerHTML = `${numberOfDays.toFixed(2)} since your last visit`;
 
