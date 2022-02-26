@@ -266,6 +266,16 @@ main #join h2 {
     padding-top: .25em;
 }
 
+main h1.joinPage {
+    display:flex;
+    justify-content: center;
+}
+
+form {
+    max-width: 500px;
+    margin-left: 450px;
+}
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #8B728E;
@@ -311,7 +321,7 @@ form input.submitBtn {
     color: white;
     border-radius: 4px;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: 0 0 2rem 18%;
     width: 96%;
     max-width: 20rem;
 }
