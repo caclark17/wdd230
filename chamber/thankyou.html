@@ -3,12 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/chamber.js"></script>
+    
     <title>Thank You Page</title>
 </head>
 <body>
-    <main>
-        <h1>Thank you for joining the Utah Valley Chamber of Commerce!</h1>
+    <header>
+        <div class="topOfPage">
+            <img class="logo" src="images/utahValley.webp" alt="logo">
+            <h1 class="chamberName">Utah Valley Chamber of Commerce</h1>
+            <img class="socialMedia" src="images/facebookIcon.png" alt="Facebook Icon"><a href="https://www.facebook.com"></a>
+            <img class="socialMedia2" src="images/instagramIcon.png" alt="Instagram Icon"><a href="https://www.instagram.com"></a>
+        </div>
+
+        <nav>
+
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="date"></div>
+        </header>
+    
+    
+        <main>
+        <h1 class="thanksPage">Thank you for joining the Utah Valley Chamber of Commerce!</h1>
+        <h2 class="thanksPage2">We look forward to collaborating with you.</h2>
     </main>
+    
+    
+    
+    <footer>
+        <div class="footerLayout">
+        <img class="logo" src="images/utahValley.webp" alt="Chamber Logo">
+        <p>1234 Lehi Lane<br>
+        Lehi, Utah 84043</p>
+        <p>(801)456-7899<br>
+        uvchamber@info.com</p>
+        <figure class="map">
+        <img src="images/chamberMap250.jpeg" alt="Chamber Location">
+        </figure>
+        </div>
+        &copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
+        <p>Last Modified: </p><span id="dateMod"></span>
+
+    </footer>
+
+        <script>
+            document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
+        </script>
     
 </body>
 </html>

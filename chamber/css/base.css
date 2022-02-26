@@ -117,16 +117,13 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-main {
-    display: grid;
-    row-gap: 0.3rem;
-    column-gap: 0.3rem;
-    margin: 2px;
-}
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 0.3rem;
+    column-gap: 0.3rem;
+    margin: 2px;
 }
 .utahFunGrid {
     display: grid;
@@ -332,6 +329,17 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: 6px solid green;
+}
+
+.thanksPage {
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.thanksPage2 {
+    text-align: center;
+    margin-bottom: 200px;
 }
 
 footer {
