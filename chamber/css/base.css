@@ -137,7 +137,17 @@ nav ul li a:hover {
 }
 
 main h2.discoverTitle {
-    align-content: center;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 2em;
+}
+
+main div.utahFun h3 {
+    font-size: 20px;
+}
+
+main div p.discoverP {
+    margin-left:auto;
 }
 
 main img {
@@ -335,6 +345,7 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: 6px solid green;
 }
+
 
 .thanksPage {
     margin-top: 200px;

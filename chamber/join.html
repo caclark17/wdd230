@@ -24,7 +24,7 @@
     <header>
         <div class="topOfPage">
             <img class="logo" src="images/utahValley.webp" alt="logo">
-            <h1 class="chamberName">Join the Chamber of Commerce!</h1>
+            <h1 class="chamberName">Join the<br>Chamber of Commerce!</h1>
             <img class="socialMedia" src="images/facebookIcon.png" alt="Facebook Icon"><a href="https://www.facebook.com"></a>
             <img class="socialMedia2" src="images/instagramIcon.png" alt="Instagram Icon"><a href="https://www.instagram.com"></a>
         </div>
@@ -62,13 +62,19 @@
         <fieldset>
             <legend>Membership Level</legend>
             <label class="sbs"><input type="radio" name="level" value="nonprofit"> Non-Profit. No membership fee required</label>
-            <label class="sbs"><input type="radio" name="level" value="bronze"> Bronze Member</label>
-            <label class="sbs"><input type="radio" name="level" value="silver"> Silver Member</label>
-            <label class="sbs"><input type="radio" name="level" value="gold"> Gold Member</label>
+            <label class="sbs"><input type="radio" name="level" value="bronze"> Bronze Member
+            <p>$20 per month</p></label>
+            <label class="sbs"><input type="radio" name="level" value="silver"> Silver Member
+            <p>$50 per month</p></label>
+            <label class="sbs"><input type="radio" name="level" value="gold"> Gold Member
+            <p>$100 per month</p></label>
         </fieldset>
 
         <fieldset>
-            <legend></legend>
+            <legend>Business Information</legend>
+            <label class="top">Business Name <input type="text" name="bname"></label>
+            <label class="top">Number of Employees <input type="number" name="numEmp"></label>
+            <label class="top">Business Description <input type="text" name="busDescrip"></label>
         </fieldset>
 
         <!--Submit Button-->
