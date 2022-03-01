@@ -1,7 +1,7 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
-
 const prophets = jsonObject['prophets'];
+
 
 fetch(requestURL)
     .then(function (response) {
@@ -11,6 +11,8 @@ fetch(requestURL)
         console.table(jsonObject); //temporary checking for valid response and data parsing
         prophets.forEach(displayProphets);
     });
+
+
 
 
 function displayProphets(prophet) {
