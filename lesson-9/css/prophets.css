@@ -1,4 +1,4 @@
-h1, h2, h3 {
+* {
     font-family: sans-serif;
     text-align: center;
 }
@@ -18,7 +18,7 @@ h1 {
     padding: 1em;
 }
 
-.cards section {
+.cards section{
     border: 1px solid black;
     background-color: #374258;
     align-content: center;
@@ -33,4 +33,23 @@ img {
 
 footer {
     text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(9, 1fr);
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(17, 1fr);
+}
 }
