@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script defer src="js/chamber.js"></script>
+</head>
+<body>
+    <header>
+        Utah Valley Chamber of Commerce Member Directory
+    </header>
+    
+    <main>
+
+        <div class="cards"></div>
+
+    </main>
+    
+
+    <footer>
+        <div class="footerLayout">
+        <img class="logo" src="images/utahValley.webp" alt="Chamber Logo">
+        <p>1234 Lehi Lane<br>
+        Lehi, Utah 84043</p>
+        <p>(801)456-7899<br>
+        uvchamber@info.com</p>
+        <figure class="map">
+        <img src="images/chamberMap250.jpeg" alt="Chamber Location">
+        </figure>
+        </div>
+        &copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
+        <p>Last Modified: </p><span id="dateMod"></span>
+
+    </footer>
+
+        <script>
+            document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
+        </script>
+</body>
+</html>
