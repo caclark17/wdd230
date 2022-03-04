@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "name" : "Cabela's",
+            "address" : "2502 Cabela's Blvd, Lehi, UT 84043",
+            "phoneNumber" : "(801) 766-2500",
+            "website" : "cabelas.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Bike Peddler",
+            "address" : "3600 Ashton Blvd suite a, Lehi, UT 84043",
+            "phoneNumber" : "(801) 756-5014",
+            "website" : "bikepeddlerutah.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Chubby's Cafe",
+            "address" : "1284 N Redwood Rd, Saratoga Springs, UT 84043",
+            "phoneNumber" : "(385) 352-7143",
+            "website" : "chubbyscafeut.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Crumbl Cookies",
+            "address" : "1820 W Traverse Pkwy, Lehi, UT 84043",
+            "phoneNumber" : "(801) 823-1272",
+            "website" : "crumblecookies.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Fat Cats",
+            "address" : "212 W Pioneer Crossing, Saratoga Springs, UT 84045",
+            "phoneNumber" : "(385) 262-7005",
+            "website" : "fatcatsfun.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Ogden's Flooring and Design",
+            "address" : "36 S 200 W, Lehi, UT 84043",
+            "phoneNumber" : "(801) 768-8004",
+            "website" : "ogdensflooring.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Good Earth Market",
+            "address" : "336 W Main St, American Fork, UT 84003",
+            "phoneNumber" : "(801) 756-0233",
+            "website" : "goodearthmarkets.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Mindpose Yoga",
+            "address" : "289 E Main St Suite B, Lehi, UT 84043",
+            "phoneNumber" : "(801) 874-5180",
+            "website" : "mindposeyoga.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Momentum Indoor Climbing",
+            "address" : "401 S 850 E, Lehi, UT 84043",
+            "phoneNumber" : "(801) 717-1233",
+            "website" : "momentumclimbing.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Quick Quack Car Wash",
+            "address" : "66 W Pioneer Crossing, Saratoga Springs, UT 84045",
+            "phoneNumber" : "(801) 695-9002",
+            "website" : "dontdrivedirty.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Second Chance Auto Glass",
+            "address" : "64 N 400 W, Lehi, UT 84043",
+            "phoneNumber" : "(801) 310-5692",
+            "website" : "2ndchanceautoglass.com",
+            "logo" : ,
+        },
+        {
+            "name" : "Sub Zero Nitrogen Ice Cream",
+            "address" : "1873 W Traverse Pkwy Suite E, Lehi, UT 84043",
+            "phoneNumber" : "(385) 287-7756",
+            "website" : "subzeroicecream.com",
+            "logo" : ,
+        }
+    ]
+}
