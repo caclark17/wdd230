@@ -2,7 +2,7 @@
     "businesses": [
         {
             "name" : "Cabela's",
-            "address" : "2502 Cabela's Blvd<br>Lehi, UT 84043",
+            "address" : "2502 Cabela's Blvd, Lehi, UT 84043",
             "phoneNumber" : "(801) 766-2500",
             "website" : "cabelas.com",
             "logo" : "images/cabelas.webp"
