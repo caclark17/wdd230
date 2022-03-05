@@ -1,5 +1,5 @@
-const requestURL = 'https://caclark17.github.io/chamber/lesson-10/data.json';
-const cards = document.querySelector('cards');
+const requestURL = 'https://caclark17.github.io/chamber/data.json';
+const cards = document.querySelector('.cards');
 const jsonObject = '';
 
 fetch(requestURL)
@@ -9,4 +9,33 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const businesses = jsonObject['businesses'];
         console.table(jsonObject);
-    })
+        businesses.forEach(displayBusinesses);
+    });
+
+    function displayBusinesses(businesses) {
+        let card = document.createElement('section');
+        let logo = document.createElement('img');
+        let businessName = document.createElement('h2');
+        let address = document.createElement('p');
+        let phoneNum = document.createElement('p');
+        let website = document.createElement('p');
+
+        businessName.textContent = `${businesses.name}`;
+        address.textContent = `${businesses.address}`;
+        phoneNum.textContent = `${businesses.phoneNum}`;
+        website.textContent = `${businesses.website}`;
+
+        logo.setAttribute('src', businesses.logo);
+        logo.setAttribute('alt', `Logo for ${businesses.name}`);
+        logo.setAttribute('loading', 'lazy');
+
+        card.appendChild(logo);
+        card.appendChild(businessName);
+        card.appendChild(address);
+        card.appendChild(phoneNum);
+        card.appendChild(website);
+
+        cards.appendChild(card);
+    }
+
+

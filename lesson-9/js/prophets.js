@@ -25,7 +25,7 @@ function displayProphets(prophet) {
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
     birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
     birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
-    death.textContent = `Date of Death: ${prophet.death}`
+    death.textContent = `Date of Death: ${prophet.death}`;
     numofchildren.textContent = `Number of children: ${prophet.numofchildren}`;
     
 
