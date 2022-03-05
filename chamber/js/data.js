@@ -1,4 +1,4 @@
-const requestURL = 'https://caclark17.github.io/chamber/data.json';
+const requestURL = 'https://caclark17.github.io/wdd230/chamber/data.json';
 const cards = document.querySelector('.cards');
 const jsonObject = '';
 
@@ -22,7 +22,7 @@ fetch(requestURL)
 
         businessName.textContent = `${businesses.name}`;
         address.textContent = `${businesses.address}`;
-        phoneNum.textContent = `${businesses.phoneNum}`;
+        phoneNum.textContent = `${businesses.phoneNumber}`;
         website.textContent = `${businesses.website}`;
 
         logo.setAttribute('src', businesses.logo);

@@ -158,6 +158,19 @@ main p {
     grid-column: 2 / span 1;
 }
 
+main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    row-gap: 0.3em;
+    column-gap: 0.3em;
+    margin: 2px;
+    padding: 1em;
+}
+
+main .cards section {
+    align-content: center;
+}
+
 #hero {
     position: relative;
     grid-column: 2 / span 2;
@@ -356,6 +369,21 @@ form label.top input:required:valid {
 .thanksPage2 {
     text-align: center;
     margin-bottom: 200px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.3em;
+    column-gap: 0.3em;
+    margin: 2px;
+    box-shadow: 0px 0px 8px gray;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.cards section {
+    border: 1px solid black;
 }
 
 footer {
