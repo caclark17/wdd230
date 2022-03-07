@@ -277,8 +277,12 @@ main #join h2 {
     border: 1px solid #000;
 }
 
-.line {
-    border-top: 1px solid #D6A184;
+p.tagline {
+    border-bottom: 1px solid #D6A184;
+    padding-bottom: .25em;
+}
+
+p.eaddress {
     padding-top: .25em;
 }
 
