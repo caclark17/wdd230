@@ -14,8 +14,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     <script defer src="js/chamber.js"></script>
     <script defer src="js/banner.js"></script>
-    <script defer src="js/windChill.js"></script>
     <script src="js/scripts.js"></script>
+    <script defer src="js/weatherapi.js"></script>
 
 </head>
 <body>
@@ -68,13 +68,16 @@
             <p>Join us for the grand opening of the Diamond Shack, Thursday at 1:00pm.</p>
         </section>
         <section id="weather">
-            <h2>Weather</h2>
-            <p><img class="snowflake" src="images/snowflakeIcon.png" alt="Snowflake Icon" ></p> 
-            <p>Snow</p>
-            <p class="line"></p>
-            <p> Currently: <span id="temp">28</span>&deg;F</p>
-            <span>Wind Speed: <span id="speed">17</span></span>
-            <p>Wind Chill: <span id="wind"></span></p>
+            <h2>Current Weather in Lehi</h2>
+            <span id="icon-src"></span>
+            <figure>
+                <img src="" alt="" id="weathericon" />
+                <figcaption></figcaption>
+            </figure>
+            <p><span id="current-temp"></span>&deg;F</p>
+            <p><span>Wind Speed: <span id="speed"></span></span></p>
+            <p><span>Wind Chill: <span id="wind"></span></span></p>
+            <p class="infoSrc">Weather Data Received from <a href="https://https://openweathermap.org/">OpenWeatherMap</a></p>
         </section>
         <section id="news">
             <h2>News</h2>
