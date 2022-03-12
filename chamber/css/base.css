@@ -156,6 +156,7 @@ main div p.discoverP {
 
 main img {
     grid-column: 1 / span 1;
+    max-width: 100%;
 }
 
 main p {
