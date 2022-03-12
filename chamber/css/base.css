@@ -209,6 +209,9 @@ main h3 {
     color:#00a2b6;
 }
 
+.homePg {
+    text-shadow: 2px 3px 5px #bbb;
+}
 
 #events {
     grid-column: 1 / span 1;
@@ -229,7 +232,7 @@ main #events h2 {
     grid-row: 3 / span 1;
     background-color: white;
     border: 1px solid #D6A184;
-    color:#694873;
+    color: #8B728E;
     text-align:center;
     border-radius: 5px; 
 }
