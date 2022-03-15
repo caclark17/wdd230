@@ -481,6 +481,10 @@ footer figure.map {
     width: 20%;
 }
 
+footer .logo {
+    margin-left: 4rem;
+}
+
 #lastvisit {
     background-color: #694873;
 }
