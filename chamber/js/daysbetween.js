@@ -6,7 +6,7 @@ let daysbetween = Date.now() - lastvisit;
 
 
 let numberOfDays = daysbetween / factor;
-console.log(numberOfDays);
+
 
 localStorage.setItem('#lastvisit', Date.now());
 

@@ -23,7 +23,7 @@ fetch(apiURL)
             if(temp <= 50 && speed >= 3) {
             document.querySelector('#wind').textContent = Chill(temp, speed).toFixed(2);
             } else {
-            document.getElementById('#wind').innerHTML = `N/A`;
+            document.querySelector('#wind').textContent = `N/A`;
 
 
         }

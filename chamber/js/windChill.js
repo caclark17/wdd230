@@ -1,7 +1,7 @@
 let temp = parseFloat(document.querySelector('#temp').textContent);
-console.log(temp);
+
 let speed = parseFloat(document.querySelector('#speed').textContent);
-console.log(speed);
+
 let windchill = '';
 
 function Chill(temp, speed) {
