@@ -130,9 +130,25 @@ nav ul li a:hover {
 }
 .utahFunGrid {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em; 
+    margin-left: 1em;
+    margin-bottom: 2em;
+    padding-left:1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
+
+.utahFunGrid h3 {
+    border-left: 3px solid #00a2b6;
+    padding-left: 0.5em;
+}
+
+.utahFunGrid p {
+    color:#694873;
+    padding-left: 0.5em;
+}
+
 
 main h2.discoverTitle {
     text-align: center;
@@ -183,6 +199,26 @@ main .cards section {
     color: white;
     border-radius: 15px;
     box-shadow: 3px 3px 20px #333;
+}
+
+.overlayButton:hover {
+    background-color: #8B728E;
+}
+
+.joinBoxButton {
+    margin-top: 2em;
+    border: none;
+    bottom: 30px;
+    left: 70px;
+    padding: 10px;
+    background-color: #00a2b6;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px #333;
+}
+
+.joinBoxButton:hover {
+    background-color: #8B728E;
 }
 
 #weather {
@@ -339,14 +375,16 @@ form legend {
     padding: .5rem 2%;
 }
 
-form label.top, form div {
+form label.top, 
+form div {
     display: block;
     padding-top: 1rem;
     color:#00a2b6;
     font-size: .8rem;
 }
 
-form label.top input, form label.top select {
+form label.top input, 
+form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
