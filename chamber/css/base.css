@@ -27,7 +27,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 header .topOfPage {
     display:flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
@@ -47,16 +47,12 @@ h1 {
 
 h1.chamberName {
     text-align: center;
-    font-size: 32px;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
 }
 
 h2 {
     color:#00a2b6;
-}
-
-.topOfPage {
-    display: flex;
-    display: inline;
 }
 
 .logo {
@@ -65,15 +61,13 @@ h2 {
 }
 
 .socialMedia {
-    width: 150px;
-    height: auto;
-    margin-right: -300px;
+    margin-bottom: 4rem;
+    margin-right: 1rem;
 }
 
 .socialMedia2 {
-    width: 45px;
-    height: auto;
-    margin-right: -100px;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
 }
 
 nav button {
@@ -404,16 +398,16 @@ form label.top input:required:valid {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
     row-gap: 1em;
     column-gap: 1em;
     margin: 2px;
     border: none;
     padding: 1em;
     text-align: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 8rem;
+    max-width: 80%;
 }
 
 .cards section {
@@ -439,7 +433,7 @@ footer .footerLayout {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 footer figure.map {
