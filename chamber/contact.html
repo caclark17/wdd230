@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory</title>
+    <meta name="description" content="Chamber of Commerce site assignment for Cynthia Clark, student in wdd 230 at BYU-I">
+    <title>Chamber Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">   
@@ -12,14 +13,21 @@
     <link rel="stylesheet" href="css/medium.css"/>
     <link rel="shortcut icon" href="favicon.ico">
     <script defer src="js/chamber.js"></script>
-    <script defer src="js/data.js"></script>
+    <script defer src="js/banner.js"></script>
     <script src="js/scripts.js"></script>
+    <script defer src="js/weatherapi.js"></script>
+
 </head>
 <body>
+    <div class="banner">
+
+                <strong> 🤝 Come join us for the chamber meet and greet Wednesday at 7:00 PM</strong>
+
+    </div>
     <header>
         <div class="topOfPage">
             <img class="logo" src="images/utahValley.webp" alt="logo">
-            <h1 class="chamberName">Utah Valley Chamber of Commerce<br>Membership Directory</h1>
+            <h1 class="chamberName">Utah Valley<br>Chamber of Commerce</h1>
             <div class="socialIcons">
                 <a href="https://www.facebook.com"><img class="socialMedia" src="images/fbookLogo.png" alt="Facebook Icon"></a>
                 <a href="https://www.instagram.com"><img class="socialMedia2" src="images/instaLogo.png" alt="Instagram Icon"></a>
@@ -27,8 +35,7 @@
         </div>
 
         <nav>
-
-            <button id="hamburgerBtn" onclick="toggleMenu()"><span>&#9776;</span><span>X</span></button>
+            <button id="hamburgerBtn" onclick="toggleMenu()" class="toggle"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
@@ -37,34 +44,32 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="date"></div>
-    </header>
-    
-    <main>
+        </header>
 
-        <div class="cards"></div>
+        <main>
 
-    </main>
-    
-
-    <footer>
-        <div class="footerLayout">
-        <img class="logo" src="images/utahValley.webp" alt="Chamber Logo">
-        <p>1234 Lehi Lane<br>
-        Lehi, Utah 84043<br>
-        (801)456-7899<br>
-        uvchamber@info.com</p>
-        <figure class="map">
-        <img src="images/chamberMap250.jpeg" alt="Chamber Location">
-        </figure>
-        </div>
-        &copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
-        <p>Last Modified: </p><span id="dateMod"></span>
-
-    </footer>
-
-        <script>
-            document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
-        </script>
+        </main>
 </body>
-</html>
+
+        <footer>
+            <div class="footerLayout">
+            <img class="logo" src="images/utahValley.webp" alt="Chamber Logo">
+            <p>1234 Lehi Lane<br>
+            Lehi, Utah 84043<br>
+            (801)456-7899<br>
+            uvchamber@info.com</p>
+            <figure class="map">
+            <img src="images/chamberMap250.jpeg" alt="Chamber Location">
+            </figure>
+            </div>
+            &copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
+            <p>Last Modified: </p><span id="dateMod"></span>
+    
+        </footer>
+    
+            <script>
+                document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
+            </script>
+    
+    </body>
+    </html>
