@@ -60,6 +60,11 @@ h2 {
     height: auto;
 }
 
+.icons {
+    display:flex;
+    justify-content: center;
+}
+
 .socialMedia {
     margin-bottom: 4rem;
     margin-right: 1rem;
@@ -425,6 +430,38 @@ form label.top input:required:valid {
     border-left: 6px solid green;
 }
 
+.officeHrs {
+    width: 30%;
+    border: 1px solid #D6A184;
+    margin: 2rem;
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+
+.officeHrs h2 {
+    padding-left: 1.1em;
+}
+
+.officeHrs p {
+    padding-bottom: .5em;
+}
+
+.contactInfo {
+    width: 30%;
+    border: 1px solid #D6A184;
+    margin: 2rem;
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+
+.contactInfo h2 {
+    padding-left: 1.1em;
+}
+
+.contactContainers {
+    display: flex;
+    justify-content: center;
+}
 
 .thanksPage {
     margin-top: 200px;
