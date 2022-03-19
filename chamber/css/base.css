@@ -523,7 +523,11 @@ footer .logo {
 }
 
 #lastvisit {
-    background-color: #694873;
+    display: flex;
+    justify-content: center;
+    background-color: #8B728E;
+    color: white;
+    width: 100%;
 }
 
 nav ul {
