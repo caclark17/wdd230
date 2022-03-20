@@ -6,7 +6,7 @@
             "phoneNumber" : "(801) 766-2500",
             "website" : "cabelas.com",
             "logo" : "images/cabelas.webp",
-            "status" : "silver"
+            "memStatus" : "silver"
         },
         {
             "name" : "Bike Peddler",
@@ -14,7 +14,7 @@
             "phoneNumber" : "(801) 756-5014",
             "website" : "bikepeddlerutah.com",
             "logo" : "images/bikePeddler.webp",
-            "status" : "bronze"
+            "memStatus" : "bronze"
         },
         {
             "name" : "Chubby's Cafe",
@@ -22,7 +22,7 @@
             "phoneNumber" : "(385) 352-7143",
             "website" : "chubbyscafeut.com",
             "logo" : "images/chubbys.webp",
-            "status" : "silver"
+            "memStatus" : "silver"
             
         },
         {
@@ -31,7 +31,7 @@
             "phoneNumber" : "(801) 823-1272",
             "website" : "crumblecookies.com",
             "logo" : "images/crumbl.webp",
-            "status" : "silver"
+            "memStatus" : "silver"
             
         },
         {
@@ -40,7 +40,7 @@
             "phoneNumber" : "(385) 262-7005",
             "website" : "fatcatsfun.com",
             "logo" : "images/fatCats.webp",
-            "status" : "gold"
+            "memStatus" : "gold"
         },
         {
             "name" : "Ogden's Flooring and Design",
@@ -48,7 +48,7 @@
             "phoneNumber" : "(801) 768-8004",
             "website" : "ogdensflooring.com",
             "logo" : "images/flooringandDesign.webp",
-            "status" : "gold"
+            "memStatus" : "gold"
         },
         {
             "name" : "Good Earth Market",
@@ -56,7 +56,7 @@
             "phoneNumber" : "(801) 756-0233",
             "website" : "goodearthmarkets.com",
             "logo" : "images/goodEarth.webp",
-            "status" : "silver"
+            "memStatus" : "silver"
         },
         {
             "name" : "Mindpose Yoga",
@@ -64,7 +64,7 @@
             "phoneNumber" : "(801) 874-5180",
             "website" : "mindposeyoga.com",
             "logo" : "images/mindposeYoga.webp",
-            "status" : "gold"
+            "memStatus" : "gold"
         },
         {
             "name" : "Momentum Indoor Climbing",
@@ -72,7 +72,7 @@
             "phoneNumber" : "(801) 717-1233",
             "website" : "momentumclimbing.com",
             "logo" : "images/momentum.webp",
-            "status" : "silver"
+            "memStatus" : "silver"
         },
         {
             "name" : "Quick Quack Car Wash",
@@ -80,7 +80,7 @@
             "phoneNumber" : "(801) 695-9002",
             "website" : "dontdrivedirty.com",
             "logo" : "images/quickQuack.webp",
-            "status" : "gold"
+            "memStatus" : "gold"
         },
         {
             "name" : "Second Chance Auto Glass",
@@ -88,7 +88,7 @@
             "phoneNumber" : "(801) 310-5692",
             "website" : "2ndchanceautoglass.com",
             "logo" : "images/secondChanceAutoGlass.webp",
-            "status" : "bronze"
+            "memStatus" : "bronze"
         },
         {
             "name" : "Sub Zero Nitrogen Ice Cream",
@@ -96,7 +96,7 @@
             "phoneNumber" : "(385) 287-7756",
             "website" : "subzeroicecream.com",
             "logo" : "images/subzero.webp",
-            "status" : "bronze"
+            "memStatus" : "bronze"
         }
     ]
 }
