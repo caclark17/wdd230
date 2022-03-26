@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+
+h1, 
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:#ac856d;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    background-color: #ac856d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 1em 2em;
+}
+
+
+.templeLogo {
+    width: 6rem;
+    margin-left: 1.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #a3a88a;
+}
+
+.homeNav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #a3a88a;
+
+}
+
+.socialMedia {
+    margin-right: 1.5em;
+}
+
+.socialMedia :nth-child(2) {
+    margin-left: 1em;
+}
+
+nav a:hover {
+    color: #ac856d;
+}
+
+.heroImg {
+    width: 100%;
+}
+
+.callToAction {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.callToAction h1 {
+    font-size: 2em;
+}
+
+
+footer {
+    background-color: #a3a88a;
+    color: white;    
+}
