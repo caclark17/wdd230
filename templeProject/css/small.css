@@ -14,6 +14,11 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+.infoAndWeather {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
 button {
     background-color: #ac856d;
     color: white;
@@ -24,7 +29,7 @@ button {
 
 
 .templeLogo {
-    width: 6rem;
+    width: 7rem;
     margin-left: 1.5em;
 }
 
@@ -35,13 +40,14 @@ nav ul {
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #a3a88a;
+    color: white;
 }
 
 .homeNav {
@@ -49,16 +55,18 @@ nav ul li a {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    color: #a3a88a;
+    background-color: #988d84;
+    color: white;
 
 }
 
 .socialMedia {
-    margin-right: 1.5em;
+    margin-right: 1.5rem;
+    margin-bottom: .75rem;
 }
 
 .socialMedia :nth-child(2) {
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 nav a:hover {
@@ -71,12 +79,12 @@ nav a:hover {
 
 .callToAction {
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .callToAction h1 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 

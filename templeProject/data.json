@@ -1,0 +1,49 @@
+{
+    "temples": [
+        {
+            "location" : "Madrid, Spain",
+            "address" : "Calle Del Templo No2",
+            "address2" : "28030 Madrid, Spain",
+            "phone" : "(34) 91-214-2607",
+            "services" : "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history" : "Announced: 4 April 1993; Groundbreaking: 11 June 1996; Dedicated: 19 March 1999",
+            "ordinance schedule" : "Ordinances available by appointment only",
+            "session schedule" : "Tuesdays: 10:00 AM, 11:00 AM, and 12:00 PM, Wednesdays: 10:00 AM, 11:00 AM, and 12:00 PM, Thursdays: 10:00 AM, 11:00 AM, and 12:00 PM, Fridays: 10:00 AM, 11:00 AM, 12:00 PM, 3:00 PM, and 4:00 PM, Saturdays: 10:00 AM, 12:00 PM, 3:00 PM, and 4:00 PM",
+            "temple closure schedule" : "Saturday, 2 April 2022; Monday, 6 June 2022 - Monday, 15 August 2022; Saturday, 1 October 2022; Saturday, 24 December 2022; Saturday, 31 December 2022"
+        },
+        {
+            "location" : "Adelaide, Australia",
+            "address" : "53-59 Lower Portrush Rd",
+            "address2" : "Marden SA 5070 Australia",
+            "phone" : "(61) 8-8363-8000",
+            "services" : "No clothing rental, No cafeteria available, No patron housing available, No distribution center nearby",
+            "history" : "Announced: 17 March 1999; Groundbreaking: 29 May 1999; Dedicated: 15 June 2000",
+            "ordinance schedule" : "Ordinances available by appointment only",
+            "session schedule" : "Wednesdays: 5:30 PM and 7:30 PM, Thursdays: 9:30 AM and 11:30 AM, Fridays: 5:30 PM and 7:30 PM, Saturdays: 8:00 AM and 10:00 AM",
+            "temple closure schedule" : "Saturday, 9 April 2022; Saturday, 16 April 2022; Monday, 18 April 2022 - Monday, 25 April 2022; Saturday, 8 October 2022; Monday, 10 Octover 2022 - Monday, 24 October 2022; Saturday, 24 December 2022; Saturday, 31 December 2022"
+            
+        },
+        {
+            "location" : "Frankfurt, Germany",
+            "address" : "Talstrasse 10",
+            "address2" : "61381 Friedrichsdork/TS Germany",
+            "phone" : "(49) 6172-59000",
+            "services" : "Clothing rental available, No cafeteria available, No patron housing available, Distribution nearby",
+            "history" : "Announced: 1 April 1981; Groundbreaking: 1 July 1985; Dedicated: 28 August 1987; Rededicated: 20 October 2019",
+            "ordinance schedule" : "Ordinances available by appointment only",
+            "session schedule" : "Thursdays: 10:00 AM and 7:00 PM; Fridays: 10:00 AM and 7:00 PM; Saturdays: 10:00 AM",
+            "temple closure schedule" : "Monday, 25 April 2022 - Monday, 9 May 2022; Monday, 19 September 2022 - Monday, 3 October 2022; Saturday, 24 December 2022 - Tuesday, 3 January 2023"
+        },
+        {
+            "location" : "Copenhagen Denmark",
+            "address" : "Priovej 12",
+            "address2" : "2000 Frederiksberg, Denmark",
+            "phone" : "(45) 38-18-1818",
+            "services" : "No clothing rental, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history" : "Announced: 17 March 1999; Groundbreaking: 24 April 1999; Dedicated: 23 May 2004",
+            "ordinance schedule" : "Ordinances available by appointment only",
+            "session schedule" : "Wednesdays: 6:00 PM; Thursdays: 10:00 AM and 6:00 PM; Fridays: 6:00 PM; Saturdays: 10:00 AM and 12:00 PM",
+            "temple closure schedule" : "Monday, 26 September 2022 - Monday, 10 October 2022; Friday, 23 December 2022 - Tuesday, 27 December 2022; Saturday, 31 December 2022 - Tuesday, 3 January 2023"
+        }
+    ]
+}
