@@ -25,10 +25,10 @@ fetch(requestURL)
         let sessionSchedule = document.createElement('p');
         let closure = document.createElement('p');
 
-        templeName.textContent = `${temples.name}`;
+        templeName.textContent = `${temples.location}`;
         address.textContent = `${temples.address}`;
         address2.textContent = `${temples.address2}`;
-        phoneNum.textContent = `${temples.phoneNumber}`;
+        phoneNum.textContent = `${temples.phone}`;
         services.textContent = `${temples.services}`;
         history.textContent = `${temples.history}`;
         ordinanceSchedule.textContent = `${temples.ordinance-schedule}`;
@@ -37,7 +37,7 @@ fetch(requestURL)
 
 
         photo.setAttribute('src', temples.photo);
-        photo.setAttribute('alt', `Photo for ${temples.name}`);
+        photo.setAttribute('alt', `Photo for ${temples.location}`);
         photo.setAttribute('loading', 'lazy');
 
         card.appendChild(photo);
