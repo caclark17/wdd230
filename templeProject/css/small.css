@@ -16,15 +16,28 @@ p {
 
 .infoAndWeather {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.houstonTempleInfo {
+    grid-column: 2/ span 2;
+}
+
+p.houstonTempleInfo {
+    color:#ac856d;
 }
 
 button {
-    background-color: #ac856d;
+    background-color:#ac856d;
     color: white;
     border: none;
     border-radius: 4px;
     padding: 1em 2em;
+    transition-duration: 500ms;
+}
+
+button:hover {
+    background-color: #a3a88a;
 }
 
 
@@ -41,6 +54,7 @@ nav ul {
     margin: 0;
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 nav ul li a {
@@ -48,6 +62,7 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: white;
+    transition-duration: 500ms;
 }
 
 .homeNav {
@@ -70,7 +85,7 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: #ac856d;
+    color:#a3a88a;
 }
 
 .heroImg {
@@ -87,8 +102,107 @@ nav a:hover {
     font-size: 2rem;
 }
 
+div.templePics {
+    margin: 1em;
+    gap: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+div img.adelaide,
+div img.madrid,
+div img.frankfurt,
+div img.copenhagen {
+    width: 22%;
+    margin-top: 1em;
+}
+
+form {
+    width: 70%;
+    margin-left: 25%;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #988d84;
+    border-radius: 5px;
+    padding: .5rem 2%;
+    width: 70%;
+}
+
+form legend {
+    color:#988d84;
+    margin: 0 1rem;
+    padding: .5rem 2%;
+    font-family: Lato;
+}
+
+form label.firstBox,
+form label.secBox,
+form div {
+    font-family: Lato;
+    display: block;
+    padding-top: 1rem;
+    color:#988d84;
+    font-size: 1.1rem;
+}
+
+form label.firstBox input,
+form label.secBox input, 
+form label.firstBox select,
+form label.firstBox select {
+    -webkit-appearance: none;
+    font-family: Lato;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #988d84;
+    border-radius: 4px;
+    padding: .75rem;
+    color:#555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+form input.submitBtn {
+    font-family: Lato;
+    font-size: 1rem;
+    border: none;
+    background-color:#988d84;
+    color: white;
+    border-radius: 4px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 1.5rem;
+    width: 96%;
+    max-width: 22rem;
+}
+
+form input.submitBtn:hover {
+    background-color:#a3a88a;
+}
+
+form label.top input:required {
+    border-left: 6px solid red;
+}
+
+form label.top input:required:valid {
+    border-left: 6px solid green;
+}
+
+
+
 
 footer {
+    font-family: Lato;
     background-color: #a3a88a;
     color: white;    
+}
+
+footer div.container {
+    font-family: Lato;
+}
+
+footer #copyrightyear {
+    font-family: Lato;
 }

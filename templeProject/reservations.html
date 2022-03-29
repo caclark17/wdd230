@@ -36,6 +36,44 @@
     </header>
 
     <main>
+        <div class="templePics">
+            <img class="adelaide" src="images/adelaideTemple.webp" alt="Adelaide Temple">
+            <img class="copenhagen" src="images/copenhagenTemple.webp" alt="Copenhagen Temple">
+            <img class="frankfurt" src="images/frankfurtTemple.webp" alt="Frankfurt Temple">
+            <img class="madrid" src="images/madridTemple.webp" alt="Madrid Temple">
+        </div>
+        <div class="container">
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="firstBox">First Name* <input type="text" name="fname" required></label>
+                    <label class="firstBox">Last Name* <input type="text" name="lname" required></label>
+                    <label class="firstBox">Phone* <input type="tel" name="phone" placeholder="234-567-8999" required></label>
+                    <label class="firstBox">Email* <input type="email" name="email"  placeholder="name@gmail.com" required></label>
+                    <label class="firstBox">Street Address* <input type="" name="address" placeholder="123 Lois Lane" required></label>
+                    <label class="firstBox">City* <input type="text" name="city" placeholder="Metropolis" required></label>
+                    <label class="firstBox">Zip Code* <input type="text" name="zip" placeholder="77777" required></label>
+                    <label class="firstBox">State* <input type="text" name="state" placeholder="Illinois" required></label>
+                    <label class="firstBox">Country* <input type="text" name="country" placeholder="United States" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Stay Details</legend>
+                    <label class="secBox">Temple Location <input type="text" name="location" placeholder="Madrid, Spain"></label>
+                    <label class="secBox">Number of Rooms <input type="text" name="numRooms"></label>
+                    <label class="secBox">Number of Beds <input type="text" name="numBeds"></label>
+                    <label class="secBox">Bed Size <input type="text" name="bedSize"></label>
+                    <label class="secBox">Number of Guests <input type="text" name="numGuests"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information </legend>
+                    <label class="secBox">Special Requests or Comments <input type="text" name="comments"></label>
+                </fieldset>
+
+                <input type="submit" value="Make Reservation" class="submitBtn">
+            </form>
+        </div>
         
     </main>
 
@@ -43,8 +81,8 @@
     <footer>
         <div class="container">
         &copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
-    <p>Last Modified: </p><span id="dateMod"></span>
-    </div>
+        <p>Last Modified: </p><span id="dateMod"></span>
+        </div>
     </footer>
     <script>
         document.getElementById("dateMod").innerHTML = new Date(document.lastModified);
