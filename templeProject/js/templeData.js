@@ -1,0 +1,47 @@
+const requestURL = 'https://caclark17.github.io/wdd230/templeProject/data.json';
+const cards = document.querySelector('.cards');
+const jsonObject = '';
+
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        const temples = jsonObject['temples'];
+        console.table(jsonObject);
+        temples.forEach(displayTemples);
+    });
+
+    function displayTemples(temples) {
+        let card = document.createElement('section');
+        let photo = document.createElement('img');
+        let templeName = document.createElement('h2');
+        let address = document.createElement('p');
+        let address2 = document.createElement('p');
+        let phoneNum = document.createElement('p');
+        let services = document.createElement('p');
+        let history = document.createElement('p');
+
+        templeName.textContent = `${temples.name}`;
+        address.textContent = `${temples.address}`;
+        address2.textContent = `${temples.address2}`;
+        phoneNum.textContent = `${temples.phoneNumber}`;
+        services.textContent = `${temples.services}`;
+        history.textContent = `${temples.history}`;
+
+        photo.setAttribute('src', temples.photo);
+        photo.setAttribute('alt', `Photo for ${temples.name}`);
+        photo.setAttribute('loading', 'lazy');
+
+        card.appendChild(photo);
+        card.appendChild(templeName);
+        card.appendChild(address);
+        card.appendChild(phoneNum);
+        card.appendChild(address2);
+        card.appendChild(services);
+        card.appendChild(history);
+
+        cards.appendChild(card);
+    }
+
+
