@@ -21,6 +21,9 @@ fetch(requestURL)
         let phoneNum = document.createElement('p');
         let services = document.createElement('p');
         let history = document.createElement('p');
+        let ordinanceSchedule = document.createElement('p');
+        let sessionSchedule = document.createElement('p');
+        let closure = document.createElement('p');
 
         templeName.textContent = `${temples.name}`;
         address.textContent = `${temples.address}`;
@@ -28,6 +31,10 @@ fetch(requestURL)
         phoneNum.textContent = `${temples.phoneNumber}`;
         services.textContent = `${temples.services}`;
         history.textContent = `${temples.history}`;
+        ordinanceSchedule.textContent = `${temples.ordinance-schedule}`;
+        sessionSchedule.textContent = `${temples.session-schedule}`;
+        closure.textContent = `${temples.temple-closure-schedule}`;
+
 
         photo.setAttribute('src', temples.photo);
         photo.setAttribute('alt', `Photo for ${temples.name}`);
@@ -40,6 +47,9 @@ fetch(requestURL)
         card.appendChild(address2);
         card.appendChild(services);
         card.appendChild(history);
+        card.appendChild(ordinanceSchedule);
+        card.appendChild(sessionSchedule);
+        card.appendChild(closure);
 
         cards.appendChild(card);
     }
