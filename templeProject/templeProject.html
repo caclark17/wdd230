@@ -20,6 +20,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" href="favicon.ico">
+    <script defer src="js/templeWeatherAPI.js"></script>
 </head>
 <body>
     <header>
@@ -45,12 +46,28 @@
 
 
         <section class="infoAndWeather">
+            <div id="infoContainer">
             <h2 class="houstonTempleInfo">The Temple Brings Peace</h2>
             <p class="houstonTempleInfo">The Houston, Texas Temple (pictured above) was dedicated on August 26, 2000 by President Gordon B. Hinckley--about three years after it was announced. It was the 97th
                 temple in operation for The Church of Jesus-Christ of Latter-Day Saints. It was renovated and rededicated in 2018 by Elder Russell M. Nelson after there was extensive 
                 flood damage from Hurrican Harvey.
             </p>
-            <img src="#">
+            </div>
+            <div id="weatherContainer">
+            <section id="weather">
+                <h2>Current Weather in Houston</h2>
+                <span id="icon-src"></span>
+                <figure>
+                    <img src="" alt="" id="weathericon">
+                    <figcaption></figcaption>
+                </figure>
+                <p><span id="current-temp"></span>&deg;F</p>
+                <p>Wind Speed: <span id="speed"></span></p>
+                <p>Wind Chill: <span id="wind"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p class="infoSrc">Weather Data Received from <a href="https://https://openweathermap.org/">OpenWeatherMap</a></p>
+            </section>
+        </div>
         </section>
 
         <section class="callToAction">
