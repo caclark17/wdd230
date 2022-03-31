@@ -131,6 +131,31 @@ div img.copenhagen {
     margin-top: 1em;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
+    row-gap: 1em;
+    column-gap: 1em;
+    margin: 2px;
+    border: none;
+    padding: 1em;
+    text-align: center;
+    margin-left: 8rem;
+    max-width: 80%;
+    color:#ac856d;
+}
+
+.cards section {
+    box-shadow: 0px 0px 8px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+
+}
+
 form {
     width: 70%;
     margin-left: 25%;
