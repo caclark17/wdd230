@@ -32,4 +32,23 @@ fetch(apiURL)
         ;
             });
 
+            const apiURL2 =   'https://api.openweathermap.org/data/2.5/forecast/daily?lat=29&lon=-95&cnt=3&appid=f139db2a1c6a525fcd6812a627141e69' ;
+
+            fetch(apiURL2)
+                .then((response) => response.json())
+                .then((jsObject) => {
+            
+                    document.querySelector('#current-temp2').textContent = jsObject.main.temp.toFixed(1);
+                    const iconsrc2 = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+                    const desc2 = jsObject.weather[0].description;
+                    
+                    document.querySelector('#weathericon2').setAttribute('src', iconsrc2);
+                    document.querySelector('#weathericon2').setAttribute('alt', desc2);
+                    document.querySelector('figcaption').textContent = desc;
+
+                   
+            
+
+                        });
+
 

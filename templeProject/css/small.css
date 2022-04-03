@@ -106,6 +106,15 @@ nav a:hover {
     width: 100%;
 }
 
+.homePg {
+    text-align: center;
+    max-width: 68%;
+    margin: 1em auto;
+    background-color: #a3a88a;
+    color: white; 
+    padding: 2em;
+}
+
 .callToAction {
     text-align: center;
     margin-top: 5rem;
@@ -121,6 +130,7 @@ div.templePics {
     gap: 0.5em;
     display: flex;
     justify-content: center;
+    margin-top: 3em;
 }
 
 div img.adelaide,
@@ -147,7 +157,7 @@ div img.copenhagen {
 }
 
 .cards section {
-    box-shadow: 0px 0px 8px gray;
+    box-shadow: 0px 0px 8px #a3a88a;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,13 +239,69 @@ form label.top input:required:valid {
     border-left: 6px solid green;
 }
 
+.amenID {
+    margin-top: 2em;
+    text-align: left;
+    margin-left: .8em;
+}
 
+.amenities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+    row-gap: 1em;
+    column-gap: 1em;
+    margin: 2px;
+    border: none;
+    padding: 1em;
+    text-align: center;
+    color:#ac856d;
+}
+
+.amenitiesP {
+    color:#988d84;
+    margin-left: 1.5em;
+}
+
+.freeBreakfast,
+.famHistory,
+.wifi,
+.carPark,
+.swimming,
+.shuttle,
+.gym {
+    border: none;
+    box-shadow: 0 0 8px#a3a88a;
+    padding-top: 1.5em;
+}
+
+.carPark,
+.swimming {
+    padding-top: 4em;
+}
 
 
 footer {
     font-family: Lato;
     background-color: #a3a88a;
     color: white;    
+}
+
+.fLogo {
+    width: 200px;
+    margin: 1em;
+}
+
+.mapCont {
+    margin: 1em;
+}
+
+.addressCont {
+    margin: 1em;
+}
+
+.container {
+    margin: 1em;
 }
 
 footer div.container {
