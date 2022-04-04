@@ -166,6 +166,10 @@ div img.copenhagen {
 
 }
 
+.likeButton {
+    background-color:#988d84;
+}
+
 form {
     width: 70%;
     margin-left: 25%;
@@ -263,6 +267,19 @@ form label.top input:required:valid {
     margin-left: 1.5em;
 }
 
+.specialServices {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+    row-gap: 1em;
+    column-gap: 1em;
+    margin: 2px;
+    border: none;
+    padding: 1em;
+    text-align: center;
+    color:#ac856d;
+}
+
 .freeBreakfast,
 .famHistory,
 .wifi,
@@ -278,6 +295,37 @@ form label.top input:required:valid {
 .carPark,
 .swimming {
     padding-top: 4em;
+}
+
+.specialServices div {
+    border: none;
+    box-shadow: 0 0 8px#a3a88a;
+    padding-top: 1.5em; 
+}
+
+img.playroom2  {
+    margin-top: 2em;
+}
+
+img.kitchenette2,
+img.ordinanceCards,
+h3.ordinanceCards {
+    margin-top: 3em;
+}
+
+img.receptionHall {
+    margin-top: 1em;
+}
+
+h3.receptionHall {
+    margin-top: 2em;
+}
+
+h3.playroom2,
+h3.kitchenette2 {
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 
