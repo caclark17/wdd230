@@ -307,6 +307,11 @@ img.playroom2  {
     margin-top: 2em;
 }
 
+h3.ordinanceCards,
+h3.sittingArea {
+    margin: 1em;
+}
+
 img.kitchenette2,
 img.ordinanceCards,
 h3.ordinanceCards {
@@ -333,10 +338,13 @@ footer {
     font-family: Lato;
     background-color: #a3a88a;
     color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fLogo {
-    width: 200px;
+    width: 140px;
     margin: 1em;
 }
 
