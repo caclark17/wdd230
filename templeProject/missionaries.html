@@ -19,10 +19,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <script defer src="js/templeData.js"></script>
     <script defer src="js/dates.js"></script>
-    <script src="https://kit.fontawesome.com/3d25600878.js" crossorigin="anonymous"></script>
-    <script defer src="js/likeButton.js"></script>
 </head>
 <body>
     <header>
@@ -37,18 +34,52 @@
             </ul>
             </nav>
             <div class="socialMedia">
-            <a href="https://www.facebook.com"><img src="images/fbookLogo.png" alt="Facebook Logo"></a>
-            <a href="https://www.instagram.com"><img src="images/instaLogo.png" alt="Instagram Logo"></a>
+                <a href="https://www.facebook.com"><img src="images/fbookLogo.png" alt="Facebook Logo"></a>
+                <a href="https://www.instagram.com"><img src="images/instaLogo.png" alt="Instagram Logo"></a>
         </div>
         </div>
     </header>
 
     <main>
-        <div class="cards">
+        <h1 class="extendedStay">Extended Stay Options Are Available for Missionaries!</h1>
 
-        </div>
+        <div class="roomCont">
+        <section class="rooms">
+            <h2>Room with Twin Beds for Young, Single Missionaries</h2>
+            <img src="images/twinBeds.webp" alt="Twin Beds">
+            <h3>$600 per month</h3>
+        </section>
 
+        <section class="rooms">
+            <h2>Room with Queen Bed for Couple Missionaries</h2>
+            <img src="images/queenBed.webp" alt="Twin Beds">
+            <h3>$1,000 per month</h3>
+        </section>
+
+        <section class="rooms">
+            <h2>Room with King Bed for Couple Missionaries</h2>
+            <img src="images/kingRoom.webp" alt="King bed">
+            <h3>$1,000 per month</h3>
+        </section>
+    </div>
+
+    <div class="container">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Us For More Information</legend>
+                <label class="firstBox">First Name* <input type="text" name="fname" required></label>
+                <label class="firstBox">Last Name* <input type="text" name="lname" required></label>
+                <label class="firstBox">Phone* <input type="tel" name="phone" placeholder="234-567-8999" required></label>
+                <label class="firstBox">Email* <input type="email" name="email"  placeholder="name@gmail.com" required></label>
+                <label class="secBox">Message <input type="text" name="comments"></label>
+
+            </fieldset>
+
+            <input type="submit" value="Send Message" class="submitBtn">
+        </form>
+    </div>
     </main>
+
 
 
     <footer>
@@ -59,7 +90,7 @@
         <div class="mapCont">
             <a href="https://www.google.com/maps/place/4800+Montgomery+Ln,+Bethesda,+MD+20814/@38.9832559,-77.0977258,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b3b5b43:0xceab47cd19a23a3b!8m2!3d38.9832518!4d-77.0955318"><img src="images/mapHQ.webp" class="map" alt="Map of headquarters"></a>
         </div>
-
+        
         <div class="container">
         &copy; <span id="copyrightyear"></span> | Cynthia Clark | Utah | <a href="https://byui.edu/online">BYU-I Online Learning</a>
     <p>Last Modified: </p><span id="dateMod"></span>

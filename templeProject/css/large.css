@@ -1,5 +1,51 @@
 @media only screen and (min-width: 64rem) {
 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.homeNav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #988d84;
+    color: white;
+
+}
+
+.infoAndWeather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#infoContainer {
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-top: 1em;
+    box-shadow: 0 0 20px#a3a88a;
+    text-align: center;
+    padding: 1em;
+}
+
+#weatherContainer {
+    margin-top: 1em;
+    margin-left: 5%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.socialMedia {
+    margin-right: 1.5em;
+    margin-bottom: .75rem;
+}
 
 .cards {
     display: grid;
@@ -13,5 +59,40 @@
     text-align: center;
     margin-left: 18%;
     max-width: 60%;
+}
+
+form {
+    width: 70%;
+    margin-left: 25%;
+}
+
+form label.firstBox input,
+form label.secBox input, 
+form label.firstBox select,
+form label.firstBox select {
+    -webkit-appearance: none;
+    font-family: Lato;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #988d84;
+    border-radius: 4px;
+    padding: .75rem;
+    color:#555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+form input.submitBtn {
+    margin: 0 0 2rem 1.5rem;
+    width: 96%;
+    max-width: 22rem;
+}
+
+footer {    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 }

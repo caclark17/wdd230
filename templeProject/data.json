@@ -10,7 +10,8 @@
             "ordinanceSchedule" : "Ordinances available by appointment only",
             "sessionSchedule" : "Tuesdays: 10:00 AM, 11:00 AM, and 12:00 PM, Wednesdays: 10:00 AM, 11:00 AM, and 12:00 PM, Thursdays: 10:00 AM, 11:00 AM, and 12:00 PM, Fridays: 10:00 AM, 11:00 AM, 12:00 PM, 3:00 PM, and 4:00 PM, Saturdays: 10:00 AM, 12:00 PM, 3:00 PM, and 4:00 PM",
             "templeClosureSchedule" : "Saturday, 2 April 2022; Monday, 6 June 2022 - Monday, 15 August 2022; Saturday, 1 October 2022; Saturday, 24 December 2022; Saturday, 31 December 2022",
-            "photo" : "images/madridTemple.webp"
+            "photo" : "images/madridTemple.webp",
+            "icon" : "images/thumbsUp.png"
         },
         {
             "location" : "Adelaide, Australia",

@@ -7,10 +7,10 @@ let clicked = false;
 likeButton.addEventListener("click", () => {
     if(!clicked) {
         clicked = true;
-        likeIcon.innerHTML = `<i class="fas fa-thumbs-up"></i>`;
+        likeButton.style.color = "gray";
     }
     else {
         clicked = false;
-        likeIcon.innerHTML = `<i class="far fa-thumbs-up"></i>`;
+        likeButton.style.color = "blue";
     }
 })

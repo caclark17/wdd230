@@ -23,6 +23,8 @@ fetch(requestURL)
         let ordinanceSchedule = document.createElement('p');
         let sessionSchedule = document.createElement('p');
         let templeClosureSchedule = document.createElement('p');
+        let thumbsUp = document.createElement('img');
+
 
         templeName.textContent = `${temples.location}`;
         address.textContent = `Address: ${temples.address} ${temples.address2}`;
@@ -38,6 +40,9 @@ fetch(requestURL)
         photo.setAttribute('alt', `Photo for ${temples.location}`);
         photo.setAttribute('loading', 'lazy');
 
+        thumbsUp.setAttribute('src', temples.icon);
+        thumbsUp.setAttribute('alt', `Thumbs Up Icon`);
+
         card.appendChild(photo);
         card.appendChild(templeName);
         card.appendChild(phoneNum);
@@ -47,6 +52,7 @@ fetch(requestURL)
         card.appendChild(ordinanceSchedule);
         card.appendChild(sessionSchedule);
         card.appendChild(templeClosureSchedule);
+        card.appendChild(thumbsUp);
 
         cards.appendChild(card);
     }
