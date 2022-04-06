@@ -348,6 +348,11 @@ h3.kitchenette2 {
     color: white
 }
 
+.templePage {
+    text-align: center;
+    margin-top: 2em;
+}
+
 
 .recInclusions h2,
 .pricing h2 {

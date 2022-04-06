@@ -7,10 +7,10 @@ let clicked = false;
 likeButton.addEventListener("click", () => {
     if(!clicked) {
         clicked = true;
-        likeButton.style.color = "gray";
+        likeButton.style.color = "black";
     }
     else {
         clicked = false;
         likeButton.style.color = "blue";
     }
-})
+}
